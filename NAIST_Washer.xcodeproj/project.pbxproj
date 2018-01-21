@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8046C45C1FDE85020081BDF2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046C45B1FDE85020081BDF2 /* SettingsViewController.swift */; };
+		8051EF31200E3DCC00B4241B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8051EF33200E3DCC00B4241B /* Localizable.strings */; };
+		8094A8AE1FE0B36A006DEBCF /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8094A8AD1FE0B36A006DEBCF /* ReminderViewController.swift */; };
+		8096B0301FDC3C24004F922A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8096B02F1FDC3C24004F922A /* AppDelegate.swift */; };
+		8096B0321FDC3C24004F922A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8096B0311FDC3C24004F922A /* ViewController.swift */; };
+		8096B0351FDC3C24004F922A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8096B0331FDC3C24004F922A /* Main.storyboard */; };
+		8096B0381FDC3C24004F922A /* NAIST_Washer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8096B0361FDC3C24004F922A /* NAIST_Washer.xcdatamodeld */; };
+		8096B03A1FDC3C24004F922A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8096B0391FDC3C24004F922A /* Assets.xcassets */; };
+		8096B03D1FDC3C24004F922A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8096B03B1FDC3C24004F922A /* LaunchScreen.storyboard */; };
+		8096B0481FDC3C24004F922A /* NAIST_WasherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8096B0471FDC3C24004F922A /* NAIST_WasherTests.swift */; };
+		8096B0531FDC3C24004F922A /* NAIST_WasherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8096B0521FDC3C24004F922A /* NAIST_WasherUITests.swift */; };
+		80FBB5A01FE7FF8B007B2971 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FBB59F1FE7FF8B007B2971 /* GoogleMobileAds.framework */; };
+		80FBB5A21FE8213A007B2971 /* LostorFoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FBB5A11FE8213A007B2971 /* LostorFoundViewController.swift */; };
+		80FBB5A41FE82CED007B2971 /* ubiChan.gif in Resources */ = {isa = PBXBuildFile; fileRef = 80FBB5A31FE82CED007B2971 /* ubiChan.gif */; };
+		85DCFF5B9C9032B5B48E002C /* Pods_NAIST_WasherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D43FBA7DAA5E3A23CA46D9 /* Pods_NAIST_WasherUITests.framework */; };
+		C269995DAF7ADBBD22F59B50 /* Pods_NAIST_WasherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1CDF3A0D782108C659161B /* Pods_NAIST_WasherTests.framework */; };
+		FF9005724855462CD372F8F2 /* Pods_NAIST_Washer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B43698838ADBD3E17707A9 /* Pods_NAIST_Washer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8096B0441FDC3C24004F922A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8096B0241FDC3C23004F922A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8096B02B1FDC3C23004F922A;
+			remoteInfo = NAIST_Washer;
+		};
+		8096B04F1FDC3C24004F922A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8096B0241FDC3C23004F922A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8096B02B1FDC3C23004F922A;
+			remoteInfo = NAIST_Washer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09B43698838ADBD3E17707A9 /* Pods_NAIST_Washer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NAIST_Washer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		515BD534618A36237369809B /* Pods-NAIST_WasherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAIST_WasherUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NAIST_WasherUITests/Pods-NAIST_WasherUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5A6ACDCF38761945037909DB /* Pods-NAIST_Washer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAIST_Washer.release.xcconfig"; path = "Pods/Target Support Files/Pods-NAIST_Washer/Pods-NAIST_Washer.release.xcconfig"; sourceTree = "<group>"; };
+		76C4CF66C802D0739FD257F3 /* Pods-NAIST_WasherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAIST_WasherUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NAIST_WasherUITests/Pods-NAIST_WasherUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8046C45B1FDE85020081BDF2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8051EF32200E3DCC00B4241B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8051EF34200E3DDA00B4241B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8094A8AD1FE0B36A006DEBCF /* ReminderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
+		8096B02C1FDC3C24004F922A /* NAIST_Washer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NAIST_Washer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8096B02F1FDC3C24004F922A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8096B0311FDC3C24004F922A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8096B0341FDC3C24004F922A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8096B0371FDC3C24004F922A /* NAIST_Washer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NAIST_Washer.xcdatamodel; sourceTree = "<group>"; };
+		8096B0391FDC3C24004F922A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8096B03C1FDC3C24004F922A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8096B03E1FDC3C24004F922A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8096B0431FDC3C24004F922A /* NAIST_WasherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NAIST_WasherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8096B0471FDC3C24004F922A /* NAIST_WasherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAIST_WasherTests.swift; sourceTree = "<group>"; };
+		8096B0491FDC3C24004F922A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8096B04E1FDC3C24004F922A /* NAIST_WasherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NAIST_WasherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8096B0521FDC3C24004F922A /* NAIST_WasherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAIST_WasherUITests.swift; sourceTree = "<group>"; };
+		8096B0541FDC3C24004F922A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8096B0601FDCF45C004F922A /* NAIST_Washer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NAIST_Washer.entitlements; sourceTree = "<group>"; };
+		80FBB59D1FE7FF46007B2971 /* GoogleMobileAdsSdkiOS-7.27.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "GoogleMobileAdsSdkiOS-7.27.0"; sourceTree = "<group>"; };
+		80FBB59F1FE7FF8B007B2971 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "GoogleMobileAdsSdkiOS-7.27.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		80FBB5A11FE8213A007B2971 /* LostorFoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostorFoundViewController.swift; sourceTree = "<group>"; };
+		80FBB5A31FE82CED007B2971 /* ubiChan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ubiChan.gif; sourceTree = "<group>"; };
+		80FBB5A51FE9323E007B2971 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		80FBB5A61FE9323E007B2971 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		990E2D20E60675468DAE92C6 /* Pods-NAIST_WasherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAIST_WasherTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NAIST_WasherTests/Pods-NAIST_WasherTests.release.xcconfig"; sourceTree = "<group>"; };
+		A818DFD96EE08DCA9E46D8BD /* Pods-NAIST_Washer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAIST_Washer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NAIST_Washer/Pods-NAIST_Washer.debug.xcconfig"; sourceTree = "<group>"; };
+		D5D43FBA7DAA5E3A23CA46D9 /* Pods_NAIST_WasherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NAIST_WasherUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC859ABA7184DC95FA45E04D /* Pods-NAIST_WasherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAIST_WasherTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NAIST_WasherTests/Pods-NAIST_WasherTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB1CDF3A0D782108C659161B /* Pods_NAIST_WasherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NAIST_WasherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8096B0291FDC3C23004F922A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FBB5A01FE7FF8B007B2971 /* GoogleMobileAds.framework in Frameworks */,
+				FF9005724855462CD372F8F2 /* Pods_NAIST_Washer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8096B0401FDC3C24004F922A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C269995DAF7ADBBD22F59B50 /* Pods_NAIST_WasherTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8096B04B1FDC3C24004F922A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DCFF5B9C9032B5B48E002C /* Pods_NAIST_WasherUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2823C97B991D7D05DC3C764A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80FBB59F1FE7FF8B007B2971 /* GoogleMobileAds.framework */,
+				80FBB59D1FE7FF46007B2971 /* GoogleMobileAdsSdkiOS-7.27.0 */,
+				09B43698838ADBD3E17707A9 /* Pods_NAIST_Washer.framework */,
+				FB1CDF3A0D782108C659161B /* Pods_NAIST_WasherTests.framework */,
+				D5D43FBA7DAA5E3A23CA46D9 /* Pods_NAIST_WasherUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8096B0231FDC3C23004F922A = {
+			isa = PBXGroup;
+			children = (
+				8096B02E1FDC3C24004F922A /* NAIST_Washer */,
+				8096B0461FDC3C24004F922A /* NAIST_WasherTests */,
+				8096B0511FDC3C24004F922A /* NAIST_WasherUITests */,
+				8096B02D1FDC3C24004F922A /* Products */,
+				FAB247E021EB328D8C84A4FE /* Pods */,
+				2823C97B991D7D05DC3C764A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8096B02D1FDC3C24004F922A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8096B02C1FDC3C24004F922A /* NAIST_Washer.app */,
+				8096B0431FDC3C24004F922A /* NAIST_WasherTests.xctest */,
+				8096B04E1FDC3C24004F922A /* NAIST_WasherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8096B02E1FDC3C24004F922A /* NAIST_Washer */ = {
+			isa = PBXGroup;
+			children = (
+				8096B0601FDCF45C004F922A /* NAIST_Washer.entitlements */,
+				8096B02F1FDC3C24004F922A /* AppDelegate.swift */,
+				8096B0311FDC3C24004F922A /* ViewController.swift */,
+				8046C45B1FDE85020081BDF2 /* SettingsViewController.swift */,
+				8094A8AD1FE0B36A006DEBCF /* ReminderViewController.swift */,
+				80FBB5A11FE8213A007B2971 /* LostorFoundViewController.swift */,
+				8096B0331FDC3C24004F922A /* Main.storyboard */,
+				80FBB5A31FE82CED007B2971 /* ubiChan.gif */,
+				8096B0391FDC3C24004F922A /* Assets.xcassets */,
+				8096B03B1FDC3C24004F922A /* LaunchScreen.storyboard */,
+				8096B03E1FDC3C24004F922A /* Info.plist */,
+				8096B0361FDC3C24004F922A /* NAIST_Washer.xcdatamodeld */,
+				8051EF33200E3DCC00B4241B /* Localizable.strings */,
+			);
+			path = NAIST_Washer;
+			sourceTree = "<group>";
+		};
+		8096B0461FDC3C24004F922A /* NAIST_WasherTests */ = {
+			isa = PBXGroup;
+			children = (
+				8096B0471FDC3C24004F922A /* NAIST_WasherTests.swift */,
+				8096B0491FDC3C24004F922A /* Info.plist */,
+			);
+			path = NAIST_WasherTests;
+			sourceTree = "<group>";
+		};
+		8096B0511FDC3C24004F922A /* NAIST_WasherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8096B0521FDC3C24004F922A /* NAIST_WasherUITests.swift */,
+				8096B0541FDC3C24004F922A /* Info.plist */,
+			);
+			path = NAIST_WasherUITests;
+			sourceTree = "<group>";
+		};
+		FAB247E021EB328D8C84A4FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A818DFD96EE08DCA9E46D8BD /* Pods-NAIST_Washer.debug.xcconfig */,
+				5A6ACDCF38761945037909DB /* Pods-NAIST_Washer.release.xcconfig */,
+				EC859ABA7184DC95FA45E04D /* Pods-NAIST_WasherTests.debug.xcconfig */,
+				990E2D20E60675468DAE92C6 /* Pods-NAIST_WasherTests.release.xcconfig */,
+				76C4CF66C802D0739FD257F3 /* Pods-NAIST_WasherUITests.debug.xcconfig */,
+				515BD534618A36237369809B /* Pods-NAIST_WasherUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8096B02B1FDC3C23004F922A /* NAIST_Washer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8096B0571FDC3C24004F922A /* Build configuration list for PBXNativeTarget "NAIST_Washer" */;
+			buildPhases = (
+				D21FB6024F8F0E69F414D18F /* [CP] Check Pods Manifest.lock */,
+				8096B0281FDC3C23004F922A /* Sources */,
+				8096B0291FDC3C23004F922A /* Frameworks */,
+				8096B02A1FDC3C23004F922A /* Resources */,
+				9EA57CDD13B348E9B4924EFF /* [CP] Embed Pods Frameworks */,
+				ABB899C6AFCEF588B6D42C2C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NAIST_Washer;
+			productName = NAIST_Washer;
+			productReference = 8096B02C1FDC3C24004F922A /* NAIST_Washer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8096B0421FDC3C24004F922A /* NAIST_WasherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8096B05A1FDC3C24004F922A /* Build configuration list for PBXNativeTarget "NAIST_WasherTests" */;
+			buildPhases = (
+				B05D37E772040BE0465E07C5 /* [CP] Check Pods Manifest.lock */,
+				8096B03F1FDC3C24004F922A /* Sources */,
+				8096B0401FDC3C24004F922A /* Frameworks */,
+				8096B0411FDC3C24004F922A /* Resources */,
+				94680AD9593F7FB003DB285A /* [CP] Embed Pods Frameworks */,
+				772604285F2E1DFF48EED92A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8096B0451FDC3C24004F922A /* PBXTargetDependency */,
+			);
+			name = NAIST_WasherTests;
+			productName = NAIST_WasherTests;
+			productReference = 8096B0431FDC3C24004F922A /* NAIST_WasherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8096B04D1FDC3C24004F922A /* NAIST_WasherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8096B05D1FDC3C24004F922A /* Build configuration list for PBXNativeTarget "NAIST_WasherUITests" */;
+			buildPhases = (
+				023D659541A60182C8F50CC0 /* [CP] Check Pods Manifest.lock */,
+				8096B04A1FDC3C24004F922A /* Sources */,
+				8096B04B1FDC3C24004F922A /* Frameworks */,
+				8096B04C1FDC3C24004F922A /* Resources */,
+				9413626C314143487FA0D3A1 /* [CP] Embed Pods Frameworks */,
+				67E2A99E4EFE2B1350E66700 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8096B0501FDC3C24004F922A /* PBXTargetDependency */,
+			);
+			name = NAIST_WasherUITests;
+			productName = NAIST_WasherUITests;
+			productReference = 8096B04E1FDC3C24004F922A /* NAIST_WasherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8096B0241FDC3C23004F922A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "The Elder Company";
+				TargetAttributes = {
+					8096B02B1FDC3C23004F922A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 99WH395BKY;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					8096B0421FDC3C24004F922A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 99WH395BKY;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8096B02B1FDC3C23004F922A;
+					};
+					8096B04D1FDC3C24004F922A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 99WH395BKY;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8096B02B1FDC3C23004F922A;
+					};
+				};
+			};
+			buildConfigurationList = 8096B0271FDC3C23004F922A /* Build configuration list for PBXProject "NAIST_Washer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = 8096B0231FDC3C23004F922A;
+			productRefGroup = 8096B02D1FDC3C24004F922A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8096B02B1FDC3C23004F922A /* NAIST_Washer */,
+				8096B0421FDC3C24004F922A /* NAIST_WasherTests */,
+				8096B04D1FDC3C24004F922A /* NAIST_WasherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8096B02A1FDC3C23004F922A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8051EF31200E3DCC00B4241B /* Localizable.strings in Resources */,
+				8096B03D1FDC3C24004F922A /* LaunchScreen.storyboard in Resources */,
+				80FBB5A41FE82CED007B2971 /* ubiChan.gif in Resources */,
+				8096B03A1FDC3C24004F922A /* Assets.xcassets in Resources */,
+				8096B0351FDC3C24004F922A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8096B0411FDC3C24004F922A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8096B04C1FDC3C24004F922A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		023D659541A60182C8F50CC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NAIST_WasherUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67E2A99E4EFE2B1350E66700 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NAIST_WasherUITests/Pods-NAIST_WasherUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		772604285F2E1DFF48EED92A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NAIST_WasherTests/Pods-NAIST_WasherTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9413626C314143487FA0D3A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NAIST_WasherUITests/Pods-NAIST_WasherUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94680AD9593F7FB003DB285A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NAIST_WasherTests/Pods-NAIST_WasherTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EA57CDD13B348E9B4924EFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NAIST_Washer/Pods-NAIST_Washer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftGifOrigin.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NAIST_Washer/Pods-NAIST_Washer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABB899C6AFCEF588B6D42C2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NAIST_Washer/Pods-NAIST_Washer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B05D37E772040BE0465E07C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NAIST_WasherTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D21FB6024F8F0E69F414D18F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NAIST_Washer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8096B0281FDC3C23004F922A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8096B0321FDC3C24004F922A /* ViewController.swift in Sources */,
+				8096B0381FDC3C24004F922A /* NAIST_Washer.xcdatamodeld in Sources */,
+				8094A8AE1FE0B36A006DEBCF /* ReminderViewController.swift in Sources */,
+				8096B0301FDC3C24004F922A /* AppDelegate.swift in Sources */,
+				80FBB5A21FE8213A007B2971 /* LostorFoundViewController.swift in Sources */,
+				8046C45C1FDE85020081BDF2 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8096B03F1FDC3C24004F922A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8096B0481FDC3C24004F922A /* NAIST_WasherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8096B04A1FDC3C24004F922A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8096B0531FDC3C24004F922A /* NAIST_WasherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8096B0451FDC3C24004F922A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8096B02B1FDC3C23004F922A /* NAIST_Washer */;
+			targetProxy = 8096B0441FDC3C24004F922A /* PBXContainerItemProxy */;
+		};
+		8096B0501FDC3C24004F922A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8096B02B1FDC3C23004F922A /* NAIST_Washer */;
+			targetProxy = 8096B04F1FDC3C24004F922A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8051EF33200E3DCC00B4241B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8051EF32200E3DCC00B4241B /* en */,
+				8051EF34200E3DDA00B4241B /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		8096B0331FDC3C24004F922A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8096B0341FDC3C24004F922A /* Base */,
+				80FBB5A51FE9323E007B2971 /* ja */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8096B03B1FDC3C24004F922A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8096B03C1FDC3C24004F922A /* Base */,
+				80FBB5A61FE9323E007B2971 /* ja */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8096B0551FDC3C24004F922A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8096B0561FDC3C24004F922A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8096B0581FDC3C24004F922A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A818DFD96EE08DCA9E46D8BD /* Pods-NAIST_Washer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NAIST_Washer/NAIST_Washer.entitlements;
+				DEVELOPMENT_TEAM = 99WH395BKY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-7.27.0",
+				);
+				INFOPLIST_FILE = NAIST_Washer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elder.NAIST-Washer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		8096B0591FDC3C24004F922A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A6ACDCF38761945037909DB /* Pods-NAIST_Washer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NAIST_Washer/NAIST_Washer.entitlements;
+				DEVELOPMENT_TEAM = 99WH395BKY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-7.27.0",
+				);
+				INFOPLIST_FILE = NAIST_Washer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elder.NAIST-Washer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		8096B05B1FDC3C24004F922A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC859ABA7184DC95FA45E04D /* Pods-NAIST_WasherTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 99WH395BKY;
+				INFOPLIST_FILE = NAIST_WasherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elder.NAIST-WasherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NAIST_Washer.app/NAIST_Washer";
+			};
+			name = Debug;
+		};
+		8096B05C1FDC3C24004F922A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 990E2D20E60675468DAE92C6 /* Pods-NAIST_WasherTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 99WH395BKY;
+				INFOPLIST_FILE = NAIST_WasherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elder.NAIST-WasherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NAIST_Washer.app/NAIST_Washer";
+			};
+			name = Release;
+		};
+		8096B05E1FDC3C24004F922A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C4CF66C802D0739FD257F3 /* Pods-NAIST_WasherUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 99WH395BKY;
+				INFOPLIST_FILE = NAIST_WasherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elder.NAIST-WasherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = NAIST_Washer;
+			};
+			name = Debug;
+		};
+		8096B05F1FDC3C24004F922A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 515BD534618A36237369809B /* Pods-NAIST_WasherUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 99WH395BKY;
+				INFOPLIST_FILE = NAIST_WasherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elder.NAIST-WasherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = NAIST_Washer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8096B0271FDC3C23004F922A /* Build configuration list for PBXProject "NAIST_Washer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8096B0551FDC3C24004F922A /* Debug */,
+				8096B0561FDC3C24004F922A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8096B0571FDC3C24004F922A /* Build configuration list for PBXNativeTarget "NAIST_Washer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8096B0581FDC3C24004F922A /* Debug */,
+				8096B0591FDC3C24004F922A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8096B05A1FDC3C24004F922A /* Build configuration list for PBXNativeTarget "NAIST_WasherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8096B05B1FDC3C24004F922A /* Debug */,
+				8096B05C1FDC3C24004F922A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8096B05D1FDC3C24004F922A /* Build configuration list for PBXNativeTarget "NAIST_WasherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8096B05E1FDC3C24004F922A /* Debug */,
+				8096B05F1FDC3C24004F922A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8096B0361FDC3C24004F922A /* NAIST_Washer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8096B0371FDC3C24004F922A /* NAIST_Washer.xcdatamodel */,
+			);
+			currentVersion = 8096B0371FDC3C24004F922A /* NAIST_Washer.xcdatamodel */;
+			path = NAIST_Washer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8096B0241FDC3C23004F922A /* Project object */;
+}

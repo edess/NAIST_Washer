@@ -1,0 +1,46 @@
+/* 
+  Localizable.strings
+  NAIST_Washer
+
+  Created by Edess Akpa on 2018/01/16.
+  Copyright © 2018 The Elder Company. All rights reserved.
+*/
+// all tabs strings
+allTab.Information = "情報";
+allTab.Confirmation = "承認";
+
+// Home Tab strings localized
+homeTab.GoToSettings = "設定ボタンを押して棟・階数を設定してください。\nこの設定を行うことで同階の住居者に通知を送ることが出来ます。";
+
+
+homeTab.PickUpWashing = "自分の服を洗濯中の方は取り出してください。\n他の人が必要としています。";
+
+homeTab.PickUpDryer = "自分の服を乾燥機中の方は取り出してください。\n他の人が必要としています。";
+
+homeTab.NotifSend = "同じ階の住居者に通知を送りました。少しの間お待ちください。";
+
+homeTab.NotifNotSend = "エラーが起きました。しばらく後に再度手順を踏んでください。";
+
+
+// Settings Tab strings localized
+settingsTab.detailsRequired = "必要な情報";
+settingsTab.numbBuild = "棟番号、階数に0は入力できません";
+
+settingsTab.buildRegister = "あなたの登録は： ";
+settingsTab.bldgRegisNum = "棟";
+settingsTab.floorRegister = "階";
+
+settingsTab.notifStopNotif = "今後同じフロアの利用者からの通知をオフにします。";
+settingsTab.EmailNotSend = "あなたのデバイスではメールを送信できません。メールの仕様を確認して再度送信してください";
+
+
+settingsTab.EmailError = "予期せぬエラー起きました。しばらく後に再度送信してください。";
+
+settingsTab.EmailSent = "正常にメールを送信しました";
+
+settingsTab.EmailBody = "こんにちはエルダーさん。コメントがあります。\n";
+
+
+// Reminder Tab strings localized
+reminderTab.NotifTitle = "洗濯機の利用者からの通知";
+reminderTab.NotifBody = "洗濯機から衣類を取り出してください。";

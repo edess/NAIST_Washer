@@ -1,0 +1,51 @@
+/* 
+  Localizable.strings
+  NAIST_Washer
+
+  Created by Edess Akpa on 2018/01/16.
+  Copyright © 2018 The Elder Company. All rights reserved.
+*/
+
+// all tabs strings
+allTab.Information = "Information";
+allTab.Confirmation = "Confirmation";
+
+//Home Tab strings localized
+homeTab.GoToSettings = "Please go to the SETTINGS tab to set your Building and Floor numbers. \nThese two parameters are required to send notifications to other users on the same floor as you.";
+
+
+homeTab.PickUpWashing = "If you have your clothes in the washing machines, please pick them. \nSomeone else need to use the machine.";
+
+homeTab.PickUpDryer = "If you have your clothes in the dryer, please pick them. \nSomeone else need to use the machine.";
+
+homeTab.NotifSend = "We successfully informed other washing machines users about your need to use the machine. \nPlease wait a moment.";
+
+homeTab.NotifNotSend = "An error occurred when trying to notify other users. \nPlease try again later.";
+
+
+// Settings Tab strings localized
+settingsTab.detailsRequired = "Informations needed";
+
+settingsTab.numbBuild = "The Building number and the Floor number should be different to zero.";
+
+settingsTab.buildRegister = "You'll be registered on ";
+settingsTab.bldgRegisNum = "th building";
+settingsTab.floorRegister = "th floor";
+
+
+settingsTab.notifStopNotif = "You will no longer receive notifications from your floor Washing Manager";
+
+settingsTab.EmailNotSend = "Your device could not send the e-mail. \nPlease check your e-mail configuration and try again.";
+
+
+settingsTab.EmailError = "There was an unexpected error when sending your message. \nPlease try again later.";
+
+settingsTab.EmailSent = "Your email has been sent successfully!";
+
+settingsTab.EmailBody = "Hello Elder. I have a comment.\n";
+
+
+
+// Reminder Tab strings localized
+reminderTab.NotifTitle = "Reminder from Washing machine Manager";
+reminderTab.NotifBody = "Please, take your clothes out of the machine(s).";

@@ -1,0 +1,6 @@
+framework module Pods_NAIST_WasherTests {
+  umbrella header "Pods-NAIST_WasherTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,111 @@
+
+/* Class = "UILabel"; text = "Select your Building number"; ObjectID = "1vt-gu-p5U"; */
+"1vt-gu-p5U.text" = "棟番号：";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "2o8-Qp-vuC"; */
+"2o8-Qp-vuC.title" = "ホーム";
+
+/* Class = "UIButton"; normalTitle = "I need to use the washing machine"; ObjectID = "4dX-Hl-I4F"; */
+"4dX-Hl-I4F.normalTitle" = "洗濯機の中身を空にしてください";
+
+/* Class = "UIButton"; normalTitle = "Contact the Developers"; ObjectID = "7w2-zK-w7n"; */
+"7w2-zK-w7n.normalTitle" = "アプリ開発者に連絡";
+
+/* Class = "UIButton"; normalTitle = "Please take your clothes out "; ObjectID = "DLr-5j-7j9"; */
+"DLr-5j-7j9.normalTitle" = "乾燥機から衣類を取り出してください";
+
+/* Class = "UILabel"; text = "Select your Floor number"; ObjectID = "FzL-Ul-rrX"; */
+"FzL-Ul-rrX.text" = "床階数：";
+
+/* Class = "UILabel"; text = "00h00m00s"; ObjectID = "HDP-AC-jIA"; */
+"HDP-AC-jIA.text" = "00h00m00s";
+
+/* Class = "UINavigationItem"; title = "Post a Lost or Found item"; ObjectID = "KhI-cd-rSz"; */
+"KhI-cd-rSz.title" = "忘れ物の報告をする";
+
+/* Class = "UILabel"; text = "Take your clothes at: "; ObjectID = "P75-4j-LGp"; */
+"P75-4j-LGp.text" = "服の取り出し時間： ";
+
+/* Class = "UIButton"; normalTitle = "Stop getting notifications"; ObjectID = "Tv8-aK-1bE"; */
+"Tv8-aK-1bE.normalTitle" = "通知を受け取るのを辞める";
+
+/* Class = "UINavigationItem"; title = "Manage your Settings"; ObjectID = "VU9-cJ-7kD"; */
+"VU9-cJ-7kD.title" = "設定を変更する。";
+
+/* Class = "UIButton"; normalTitle = "Start getting notifications"; ObjectID = "YoA-ks-dR9"; */
+"YoA-ks-dR9.normalTitle" = "通知を受け取る";
+
+/* Class = "UIButton"; normalTitle = "Set the alarm"; ObjectID = "bhk-9m-ZEQ"; */
+"bhk-9m-ZEQ.normalTitle" = "アラームものをセットする";
+
+/* Class = "UILabel"; text = "Building 0,"; ObjectID = "cyf-nd-U2p"; */
+"cyf-nd-U2p.text" = "0 棟,";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "gPq-70-jjA"; */
+"gPq-70-jjA.title" = "設定";
+
+/* Class = "UILabel"; text = "This feature will be available from the next version of the app."; ObjectID = "gVj-1v-XC1"; */
+"gVj-1v-XC1.text" = "この機能は次のアップデートから利用できます。しばらくお待ちください。";
+
+/* Class = "UINavigationItem"; title = "Home"; ObjectID = "i5U-Zi-q7t"; */
+"i5U-Zi-q7t.title" = "ホーム";
+
+/* Class = "UILabel"; text = "My Room setting:"; ObjectID = "iZD-Bl-cnY"; */
+"iZD-Bl-cnY.text" = "部屋の詳細";
+
+/* Class = "UISegmentedControl"; kH9-sg-2c6.segmentTitles[0] = "0"; ObjectID = "kH9-sg-2c6"; */
+"kH9-sg-2c6.segmentTitles[0]" = "0";
+
+/* Class = "UISegmentedControl"; kH9-sg-2c6.segmentTitles[1] = "1"; ObjectID = "kH9-sg-2c6"; */
+"kH9-sg-2c6.segmentTitles[1]" = "1";
+
+/* Class = "UISegmentedControl"; kH9-sg-2c6.segmentTitles[2] = "2"; ObjectID = "kH9-sg-2c6"; */
+"kH9-sg-2c6.segmentTitles[2]" = "2";
+
+/* Class = "UISegmentedControl"; kH9-sg-2c6.segmentTitles[3] = "3"; ObjectID = "kH9-sg-2c6"; */
+"kH9-sg-2c6.segmentTitles[3]" = "3";
+
+/* Class = "UISegmentedControl"; kH9-sg-2c6.segmentTitles[4] = "4"; ObjectID = "kH9-sg-2c6"; */
+"kH9-sg-2c6.segmentTitles[4]" = "4";
+
+/* Class = "UISegmentedControl"; kH9-sg-2c6.segmentTitles[5] = "5"; ObjectID = "kH9-sg-2c6"; */
+"kH9-sg-2c6.segmentTitles[5]" = "5";
+
+/* Class = "UILabel"; text = "Floor 0"; ObjectID = "qcT-vM-QrH"; */
+"qcT-vM-QrH.text" = "0 階";
+
+/* Class = "UILabel"; text = "Alarm will be set for:"; ObjectID = "rYc-ck-rRi"; */
+"rYc-ck-rRi.text" = "アラームを設定した理由： ";
+
+/* Class = "UITabBarItem"; title = "Lost or Found"; ObjectID = "rtF-1L-gYE"; */
+"rtF-1L-gYE.title" = "失われる-見つかる";
+
+/* Class = "UINavigationItem"; title = "Set up an alarm or a reminder"; ObjectID = "sXb-8e-Vt5"; */
+"sXb-8e-Vt5.title" = "アラームおよび通知を設定する。";
+
+/* Class = "UISegmentedControl"; sth-UG-xxf.segmentTitles[0] = "#0"; ObjectID = "sth-UG-xxf"; */
+"sth-UG-xxf.segmentTitles[0]" = "#0";
+
+/* Class = "UISegmentedControl"; sth-UG-xxf.segmentTitles[1] = "#1"; ObjectID = "sth-UG-xxf"; */
+"sth-UG-xxf.segmentTitles[1]" = "#1";
+
+/* Class = "UISegmentedControl"; sth-UG-xxf.segmentTitles[2] = "#2"; ObjectID = "sth-UG-xxf"; */
+"sth-UG-xxf.segmentTitles[2]" = "#2";
+
+/* Class = "UISegmentedControl"; sth-UG-xxf.segmentTitles[3] = "#3"; ObjectID = "sth-UG-xxf"; */
+"sth-UG-xxf.segmentTitles[3]" = "#3";
+
+/* Class = "UISegmentedControl"; sth-UG-xxf.segmentTitles[4] = "#4"; ObjectID = "sth-UG-xxf"; */
+"sth-UG-xxf.segmentTitles[4]" = "#4";
+
+/* Class = "UISegmentedControl"; sth-UG-xxf.segmentTitles[5] = "#5"; ObjectID = "sth-UG-xxf"; */
+"sth-UG-xxf.segmentTitles[5]" = "#5";
+
+/* Class = "UISegmentedControl"; sth-UG-xxf.segmentTitles[6] = "#6"; ObjectID = "sth-UG-xxf"; */
+"sth-UG-xxf.segmentTitles[6]" = "#6";
+
+/* Class = "UISegmentedControl"; sth-UG-xxf.segmentTitles[7] = "#7"; ObjectID = "sth-UG-xxf"; */
+"sth-UG-xxf.segmentTitles[7]" = "#7";
+
+/* Class = "UITabBarItem"; title = "Reminder"; ObjectID = "ubT-XJ-QV6"; */
+"ubT-XJ-QV6.title" = "アラーム";
